@@ -1,0 +1,145 @@
+.min{
+  width: 977px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.gou{
+  text-align: right;
+  color:#48b0d0;
+}
+.gou>span{
+  color:#555;
+}
+.mitop{
+  display: flex;
+  justify-content: space-between;
+}
+.all{
+  display: flex;
+  justify-content: space-between;
+}
+.min>p{
+  /* margin-top: 10px; */
+  line-height: 50px;
+  font-size: 12px;
+}
+.mitop{
+  font-size: 12px;
+}
+.mitop>p:nth-child(2) span:nth-child(2){
+  color:#ff7960;
+
+}
+.mitop>p>button{
+  width: 78px;
+  line-height: 29px;
+  font-size: 12px;
+  color:#fff;
+  text-align: center;
+  border: 0;
+  border-radius: 4px;
+  background-color: #7dba14;
+}
+.all{
+  background-color: #ccc;
+  border-top: 6px solid #999;
+}
+.all li{
+  line-height: 38px;
+  font-size: 12px;
+}
+.soye1{
+  display: flex;
+  justify-content: space-between;
+
+}
+.soye1 ul{
+  display: flex;
+  margin-right: 80px;
+}
+.soye2{
+  margin-bottom: 10px;
+}
+.soye2 li:nth-child(2){
+  color: #48b0d0;
+}
+.soye1 li{
+  margin-top: 24px;
+  line-height: 20px;
+  font-size: 12px;
+}
+.soye3>li:nth-child(2){
+  color:#ff7960;
+}
+.soyedown,.shanbeihou{
+  font-size: 12px;
+}
+.soyedown li:last-child,.shanbeihou li:last-child{
+  margin-right: 40px;
+}
+.soyedown li:last-child a,.shanbeihou li:last-child a{
+  display: block;
+}
+.all>li{
+  flex-grow:1;
+
+}
+.min ul{
+  padding-left: 6px;
+  box-sizing: border-box;
+}
+.all>li:nth-child(2){
+flex-grow:2.5;
+}
+.soyedown>div>ul,.shanbeihou{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ccc;
+  border:1px solid #999;
+  padding: 6px;
+}
+.soyedown>div>ul>li:nth-child(1),.shanbeihou>li:nth-child(1){
+}
+.soyedown>div>ul>li:nth-child(1)>p,.shanbeihou>li:nth-child(1)>p{
+  width: 194px;
+  
+}
+.soyedown>div>ul>li button,.shanbeihou>li button{
+  width: 20px;
+}
+.soyedown>div>ul>li input,.shanbeihou>li input{
+  width: 30px;
+  text-align: center;
+}
+.soyedown>div>ul>li,.shanbeihou>li{
+  margin-top: 30px;
+}
+.soyedown>div>ul>li:nth-child(1),.shanbeihou>li:nth-child(1){
+  display: flex;
+  margin-top: 0px;
+}
+.soyedown>div>ul>li:nth-child(1) input,.shanbeihou>li:nth-child(1) input{
+  margin-top: 30px;
+}
+.all1 ul{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  background-color: #ccc;
+  line-height: 40px;
+  font-size: 12px;
+}
+.all1 ul li:nth-child(2){
+ margin-right: 400px;
+}
+.all1 ul li button{
+  width: 160px;
+  background-color: #7dba14;
+  line-height: 40px;
+  border: 0;
+  color:#fff;
+  margin-left: 50px;
+}
+.all1{
+  margin-bottom: 54px;
+}

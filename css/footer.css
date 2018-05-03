@@ -1,0 +1,147 @@
+.footerbg{
+	width: 100%;
+	background-color: #f6f6f6;
+}
+footer{
+	
+}
+.change div:hover h6{
+	box-shadow: 6px 6px #ff7800;
+}
+.footertopbg{
+	background-image: url("../images/footer_bg.gif");
+	padding-top: 10px;
+}
+.footertop{
+	background-color: #f6f6f6;
+	width: 1100px;
+	margin: 0 auto;
+}
+.footertopleft{
+	width: 650px;
+}
+.footertopleftdown{
+	display: flex;
+	justify-content: space-between;
+	width: 650px;
+}
+.footertopleftdown h3{
+	color:#00ccc9;
+	margin-bottom: 10px;
+	font-size: 22px;
+	margin-top: 90px;
+}
+.footertopleftdown{
+	display: flex;
+	justify-content: space-between;
+	width: 650px;
+	font-size: 12px;
+	
+}
+.footertopleftdown a{
+	color:#000;
+}
+.footertopleftdown li{
+	line-height: 20px;
+}
+.footertopleftdownright li{
+	padding-left: 29px;
+	line-height: 29px;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+
+}
+.footertopleftdownright li:nth-child(2){
+	background-image: url("../images/share.png");
+}
+.footertopleftdownright li:nth-child(3){
+	background-image: url("../images/share.png");
+	background-position:0 -39px;
+}
+.footertopleftdownright li:nth-child(4){
+	background-image: url("../images/share.png");
+	background-position:0 -78px;
+}
+.footertopleftdownright li:nth-child(5){
+	background-image: url("../images/share.png");
+	background-position:0 -117px;
+}
+.footertopleftdownright li:nth-child(6){
+	background-image: url("../images/share.png");
+	background-position:0 -156px;
+}
+.footertop{
+display: flex;
+justify-content: space-between;
+width: 1100px;
+padding-bottom: 30px;
+}
+.footertopright img{
+	margin-top: 140px;
+	margin-right: 100px;
+}
+.wasai{
+	position: relative;
+}
+.wasai div{
+	display: none;
+	position: absolute;
+	top: -170px;
+	left: 0;
+}
+.wasai:hover div{
+	display: block;
+}
+.footerdownbg{
+	width: 100%;
+	background-color: #00ccc9;
+}
+.footerdown{
+	width: 1100px;
+	margin: 0 auto;
+	color:#fff;
+	background-color: #00ccc9;
+}
+.footerdown{
+	text-align: center;
+	font-size: 12px;
+	padding-bottom: 117px;
+}
+.footerdown ul{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 150px;
+}
+.footerdown a{
+	color:#fff;
+}
+.footerdown a:hover{
+	color:#46c600;
+}
+.footerdown h2{
+	line-height: 140px;
+}
+.footerdown p{
+	margin-top: 24px;
+}
+.righttop img{
+	margin-top: -72px;
+}
+.righttop{
+	width: 56px;
+	height: 56px;
+	overflow: hidden;
+}
+.right{
+	position: fixed;
+	right:20px;
+	bottom: 100px;
+	display: none;
+}
+.righttopblock{
+	position: absolute;
+	top: -120px;
+	left: -310px;
+	opacity: 0;
+	transition: all 1s;
+}
